@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mlungisi Rikhotso Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+        }
+
+        nav {
+            background-color: #00796b;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            background-color: #4db6ac;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #00796b;
+            margin: 15px;
+        }
+
+        header img {
+            border-radius: 10px;
+            margin-top: 15px;
+            width: 150px;
+        }
+
+        section {
+            background-color: #ffffff;
+            border: 1px solid #b2dfdb;
+            margin: 15px;
+            padding: 15px;
+        }
+
+        #projects div {
+            background-color: #b2ebf2;
+            border: 1px solid #4dd0e1;
+            margin: 10px 0;
+            padding: 10px;
+        }
+
+        #contact a {
+            color: #00796b;
+            text-decoration: none;
+        }
+
+        #contact a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #00796b;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+   
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+   
+    <header id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Mlungisi Rikhotso, a BSc Computer Sciences student at the University of Venda.</p>
+        <img src="profile.jpg.jpg">
+    </header>
+
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is Mlungisi Rikhotso and I am a Computer Science student at the University of Venda. I am currently in my second year of study. I completed high school in 2023 and obtained my NSC certificate in my hometown. My goal is to complete my Bachelor's degree at Univen and pursue an Honours degree in the future.</p>
+
+        <h3>Skills & Tools</h3>
+        <ul>
+            <li>Java</li>
+            <li>C++</li>
+            <li>HTML</li>
+            <li>Apache NetBeans IDE 21</li>
+            <li>Programiz Online Compiler</li>
+            <li>Visual Studio Code</li>
+        </ul>
+
+        <h3>Career Goal</h3>
+        <p>I aim to become a software designer and pursue an Honours degree in Computer Science along the way.</p>
+    </section>
+
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div>
+            <h3>Catering Event Project</h3>
+            <p>This project displays the number of expected guests and calculates the total price.</p>
+            <p><strong>Tools Used:</strong> Java</p>
+            <a href="https://github.com/Univen2nd/practicals-submission-07-04-2025-24001435/blob/main/CarlysEventPriceJava.java" target="_blank">View Project</a>
+        </div>
+
+        <div>
+            <h3>Interest Rate Calculator</h3>
+            <p>This project calculates interest based on given input values.</p>
+            <p><strong>Tools Used:</strong> C++</p>
+            <a href="https://github.com/Univen2nd/homework-1-24001435/blob/main/main.cpp" target="_blank">View Project</a>
+        </div>
+    </section>
+
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:24001435@mvula.univen.ac.za">24001435@mvula.univen.ac.za</a></p>
+        <p>GitHub: <a href="https://github.com/Univen2nd" target="_blank">Univen2nd GitHub</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mlungisi Rikhotso</p>
+    </footer>
+</body>
+</html>
